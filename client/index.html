@@ -1,0 +1,36 @@
+
+<html>
+    <head>
+        <title>NetBeans Messages Sample Application</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+
+        <!--        <div> 
+        
+                    <p>Last name: <input data-bind="value: firstName" /></p> 
+                    <p>Last name: <input data-bind="value: lastName"/></p> 
+        
+                </div>-->
+        <div class='liveExample'>  
+            <p>Last name: <input data-bind='value: sothuba' /></p> 
+            <p>Last name: <input data-bind='value: sothutu' /></p> 
+            <h2>Hello, <span data-bind='text: tong'> </span>!</h2>  
+        </div>
+
+        <div data-bind="foreach: myObservableArray">  
+            <p>Last name: <strong data-bind='text: name' ></strong></p> 
+            <p>Last name: <strong data-bind='text: type' ></strong></p> 
+        
+              
+        </div>
+        <script >
+      
+        </script>
+        <script src="libs/knockoutjs/dist/knockout.js" type="text/javascript"></script>
+        <script src="src.js" type="text/javascript"></script>
+    </body>
+</html>
